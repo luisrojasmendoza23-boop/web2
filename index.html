@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Index - Aprende HTML</title>
+</head>
+
+<body>
+  <hr>
+
+  <nav style="display:flex; align-items:center; gap:16px; padding:8px;">
+    <img src="/web/imagenes/Captura de html.PNG"width="50" alt="logo">
+     <a href="../index.html"><p head="margin-left: 20px;">inicio</p></a><br>
+        <a href="/HTML/etiquetas.html"><p style="margin-left: 20px;">etiquetas</p></a><br>
+      <a href="/HTML/atributos.html"><p style="margin-left: 20px;">Atributos</p></a><br>
+      <a href="/HTML/Css.html"><p style="margin-left: 20px;">CSS</p></a><br>
+      <a href="/HTML/Javascript.html"><P style="margin-left: 20px;">JavaScript</P></a><br>
+      <a href="/HTML/contacto.html"><p style="margin-left: 940px;">contacto</p></a><br>
+      <a href="/HTML/acercade.html"><p style="margin-left: 20px;">Acerca de</p></a><br>
+  </nav>
+
+  <hr>
+
+  <section id="contenido" style="padding:8px; border:2px solid #000;">
+    <h2 style="margin:0 0 8px 0;">Contenido</h2>
+
+    <ol style="margin-left:150px;">
+      <li><a href="#que-es-html">¿Qué es HTML?</a></li>
+      <li><a href="#historia-html">Historia HTML</a></li>
+      <li><a href="#editores-html">Editores de HTML</a></li>
+      <li><a href="#primer-documento">Tu primer documento HTML</a></li>
+      <li><a href="#etiquetas">¿Qué son etiquetas?</a></li>
+      <li><a href="#atributos">¿Qué son atributos?</a></li>
+      <li><a href="#reglas">Reglas fundamentales</a></li>
+      <li><a href="#etiquetas-documento">Etiquetas para documento</a></li>
+    </ol>
+  </section>
+
+  <hr>
+
+  <section id="que-es-html">
+    <h2>¿Qué es HTML?</h2>
+    <p>HTML (Lenguaje de Marcado de Hipertexto) es el código fundamental que se usa para estructurar el contenido de una página web. Su función principal es organizar elementos como texto, imágenes, videos y enlaces mediante etiquetas, lo que permite que los navegadores interpreten y muestren la información en un sitio web. </p>
+  </section>
+
+  <hr>
+
+  <section id="historia-html">
+    <h2>Historia HTML</h2>
+    <p>La historia del HTML empieza en 1989 cuando Tim Berners‑Lee lo inventa para compartir información en la web. La primera versión sólo contaba con 18 etiquetas para texto. Lo que lo hacía especial es que podía ligar varios documentos con el hipertexto. Todo esto se podía visualizar en un navegador llamado World Wide Web.</p>
+    <p>Posteriormente surge el Internet Engineering Task Force. Esto se volvió tan relevante que surgió el World Wide Web Consortium (W3C) en 1993, un organismo que determinó las reglas para el HTML.</p>
+    <p>En 1996 llegó la versión HTML 3.2 la cual ha sido una de las más completas y que ha marcado la historia del HTML hasta nuestros días.</p>
+    <p>Es importante mencionar que en este tiempo se utilizaba un navegador de nombre NSCA Mosaic. Posteriormente se lanzó la primera versión de Netscape, quien en unos cuantos meses era usado por la mayoría de los usuarios en internet.</p>
+    <p>En la evolución de internet jugaron un papel fundamental otros lenguajes de programación. La introducción de Java o JavaScript dio más forma a la segunda versión de HTML. Gracias a este lenguaje se podían implementar tablas, imágenes, tipografías e incluso colores. Posteriormente surgió el CSS (hojas de estilo en cascada) con el que se da estilo y forma a los textos.</p>
+    <p>En la tercera versión de HTML se incluyen las etiquetas específicas para los navegadores web como Internet Explorer. Sin embargo, esta decisión sólo causó caos y problemas. Por esta razón se decidió hacer un cambio hacia un estándar único.</p>
+    <p>En esta nueva versión se incluyeron etiquetas como &lt;a&gt;, &lt;estilo&gt;, &lt;java&gt; y &lt;DIV&gt;. Es así que en la versión HTML 4.0 se agregan los botones y el iFrame para poder tener sitios dentro de otros sitios. En 2014 se desarrolló la quinta versión de HTML. Esta actualización llegó con un sin fin de audios, vídeos e inputs.</p>
+  </section>
+
+  <hr>
+
+  <section id="editores-html">
+    <h2>Editores de HTML</h2>
+    <p>Los editores de HTML son software para crear y editar código HTML. Hay dos tipos principales: editores de texto, como Visual Studio Code y Sublime Text, que permiten codificar directamente; y editores WYSIWYG (What You See Is What You Get), como Adobe Dreamweaver, que ofrecen una interfaz gráfica visual. Otros editores populares incluyen Notepad++, Atom, Brackets y Bluefish</p>
+  </section>
+
+  <hr>
+
+  <section id="primer-documento">
+    <h2>Tu primer documento de HTML</h2>
+    <p>Un documento básico incluye: &lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt; y &lt;body&gt;.</p>
+  </section>
+
+  <hr>
+
+  <section id="etiquetas">
+    <h2>¿Qué son Etiquetas en HTML?</h2>
+    <p>Las etiquetas son los elementos que estructuran el contenido en HTML. Es decir, las etiquetas HTML son el lenguaje utilizado para estructurar y definir el contenido en un documento HTML. Estas etiquetas se encuentran en el HTML (o Lenguaje de Marcado de Hipertexto) de cada página.
+    Cada etiqueta contiene instrucciones sencillas que indican al navegador cómo dar formato al texto y a definir los diversos elementos de la página web. Al aplicar estas etiquetas de marcado a los diferentes elementos del texto, se indica al navegador cómo mostrarlos al usuario, lo que permite crear páginas web estructuradas y con un diseño coherente.
+  </p>
+  </section>
+
+  <hr>
+
+  <section id="atributos">
+    <h2>¿Qué son Atributos en HTML?</h2>
+    <p>En HTML, los atributos son modificadores que se agregan a las etiquetas para proporcionar información adicional sobre un elemento.
+    Se colocan en la etiqueta de apertura: Siempre van dentro de la primera etiqueta de un elemento.
+    Formato de nombre y valor: Se escriben como un par nombre="valor", donde el nombre especifica la propiedad a modificar y el valor es la configuración deseada.
+    Modifican el comportamiento y la apariencia: Cambian el modo en que un elemento funciona o cómo se muestra en la página.
+  </p>
+  </section>
+
+  <hr>
+
+  <section id="reglas">
+    <h2>Reglas fundamentales en HTML</h2>
+    <p>1. Sintaxis de etiquetas 
+La mayoría de los elementos tienen una etiqueta de apertura (<etiqueta>) y una etiqueta de cierre (</etiqueta>).
+El contenido se coloca entre las dos etiquetas.
+Algunas etiquetas, llamadas elementos vacíos o autocerrados, no tienen etiqueta de cierre (por ejemplo, <br> y <img>). 
+</p> 
+<p>
+2. Estructura del documento
+Todo documento HTML debe empezar con la declaración de tipo de documento: <!DOCTYPE html>.
+El documento completo debe estar envuelto en las etiquetas <html> y </html>.
+Dentro del <html>, se deben incluir un <head> (para metadatos) y un <body> (para el contenido visible). 
+</p>
+
+<p>
+3. Anidamiento correcto
+Los elementos pueden anidarse (uno dentro de otro), pero deben cerrarse en el orden inverso al que se abrieron.
+Ejemplo correcto: <em><strong>Texto</strong></em>
+Ejemplo incorrecto: <em><strong>Texto</em></strong> 
+
+</p>
+<p>
+4. Atributos
+Los atributos se añaden a la etiqueta de apertura y proporcionan información adicional.
+El formato es nombre="valor".
+Siempre debes encerrar los valores de los atributos entre comillas, ya sean dobles (") o simples (').
+</p>
+  </section>
+
+  <hr>
+
+  <section id="etiquetas-documento">
+    <h2>Etiquetas para hacer un documento HTML</h2>
+    <p>Ej.: &lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, &lt;meta charset="UTF-8"&gt;, &lt;title&gt;, &lt;body&gt;.</p>
+  </section>
+
+  <hr>
+
+  <footer style="padding:16px; text-align:center;">
+    © Sitio de ejemplo - páginas relativas listas para GitHub Pages
+  </footer>
+</body>
+
+</html>
